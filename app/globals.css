@@ -5,6 +5,8 @@
 
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-light: #fcf4ff;
   --color-dark: #11001F;
@@ -15,18 +17,15 @@
   --font-family: 'Outfit', sans-serif;
   --font-Ovo: 'Ovo', serif;
 
-
-
   --shadow-black: 4px 4px 0 #000;
   --shadow-white: 4px 4px 0 #fff;
-
 
 
 }
 
 
 
-/* 
+
 
 :root {
   --color-light: #fcf4ff;
@@ -40,4 +39,4 @@
 
   --font-family: 'Outfit', sans-serif;
   --font-Ovo: 'Ovo', serif;
-} */
+}
