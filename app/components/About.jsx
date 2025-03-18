@@ -54,7 +54,7 @@ const About = ({ isDarkMode }) => {
                         {infoList.map(({ icon, iconDark, title, description }, index) => (
                             <motion.li
 
-                                whileInView={{ scale: 1.05 }}
+                                whileHover={{ scale: 1.05 }}
 
                                 key={index} className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer
                              hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
