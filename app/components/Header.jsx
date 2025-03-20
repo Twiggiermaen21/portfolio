@@ -26,13 +26,12 @@ const Header = ({ isDarkMode }) => {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
 
-                className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'> frontend web developer based in -----  </motion.h1>
+                className='text-3xl sm:text-6xl lg:text-[60px] font-Ovo'>Computer Science student at the University of Silesia. </motion.h1>
             <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
-                className='max-w-2xl mx-auto font-Ovo'>  im a front end dsadaskd akd aksdaskd aksdaskd ak dkasj dkasj kdaksd
-                dsakdokdao kdoa skdoask doask daoskd o
+                className='max-w-2xl mx-auto font-Ovo'>  I specialize in full-stack web application development. I am passionate about creating modern, responsive, and intuitive user interfaces, as well as exploring backend technologies to build comprehensive solutions.
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a
