@@ -42,7 +42,7 @@ const About = ({ isDarkMode }) => {
                     transition={{ duration: 0.6, delay: 0.8 }}
 
                     className=' grid grid-rows-3-[repeat(auto-fit,minmax(200px,1fr))] gap-6 my-10'>
-                    <p className='mb-10 max-w-2xl font-Ovo'>I continuously develop my skills in HTML, CSS, and JavaScript,
+                    <p className='mb-10 mx-auto max-w-2xl font-Ovo'>I continuously develop my skills in HTML, CSS, and JavaScript,
                         as well as backend technologies such as PHP. I enjoy working on projects that combine aesthetics with
                         functionality, paying attention to every detail.
                         I am also interested in electronics – I create programs for microcontrollers in C/C++, exploring the

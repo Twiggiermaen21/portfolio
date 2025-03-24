@@ -89,26 +89,30 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Frontend Project',
+        description: 'Simple website design',
         bgImage: '/work-1.png',
+        link: 'https://twiggiermaen21.github.io',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Dog Walking App',
+        description: 'Mobile app (in progress)',
         bgImage: '/work-2.png',
+        link: '',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Game Project',
+        description: 'Basic web game',
         bgImage: '/work-3.png',
+        link: 'www.google.com',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Smart Home Project',
+        description: 'Home automation system',
         bgImage: '/work-4.png',
+        link: 'https://github.com/Twiggiermaen21/IOT_SHACAM',
     },
-]
+];
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
@@ -118,9 +122,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, PHP, C++, Java, Python ' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Currently working on my thesis' }
 ];
 
 export const toolsData = [

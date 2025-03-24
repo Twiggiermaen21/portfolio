@@ -37,7 +37,7 @@ const Work = ({ isDarkMode }) => {
                 transition={{ duration: 0.6, delay: 0.9 }}
                 className='grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] my-10 gap-5 dark:text-black'>
                 {workData.map((project, index) => (
-                    <motion.div
+                    <motion.a href={project.link}
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.3 }}
                         className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer
@@ -53,7 +53,7 @@ const Work = ({ isDarkMode }) => {
                             </div>
                         </div>
 
-                    </motion.div>
+                    </motion.a>
                 ))}
             </motion.div>
 
@@ -62,7 +62,7 @@ const Work = ({ isDarkMode }) => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.1 }}
 
-                href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px]
+                href="https://github.com/Twiggiermaen21" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px]
              border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>Show more
                 <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='Right arrow' className='w-4' />
 
