@@ -36,6 +36,12 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
+import influxdb from './influxdb.png';
+import nodered from './nodered.png';
+import docker from './docker.png';
+import eclipse from './eclipse.png';
+import grafana from './grafana.png';
+
 export const assets = {
     user_image,
     code_icon,
@@ -47,7 +53,12 @@ export const assets = {
     vscode,
     firebase,
     figma,
+    grafana,
     git,
+    influxdb,
+    nodered,
+    docker,
+    eclipse,
     mongodb,
     right_arrow_white,
     logo,
@@ -113,5 +124,6 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.influxdb, assets.nodered, assets.eclipse, assets.docker, assets.grafana
+
 ];
