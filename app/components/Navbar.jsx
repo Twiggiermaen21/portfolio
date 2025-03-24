@@ -29,14 +29,14 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </div>
 
             <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 
-                ${isScroll ? "bg-white  backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`} >
+                ${isScroll ? "bg-white  backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20 transition duration-500" : ""}`} >
                 <a href="#top">
                     <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='' className='w-28 cursor-pointer mr-14' />
                 </a>
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white  shadow-s dark:border dark:border-white/50 dark:bg-transparent"} `} >
                     <li className='font-Ovo'> <a href="#top">Home</a></li>
                     <li className='font-Ovo'> <a href="#about">About me</a></li>
-                    <li className='font-Ovo'> <a href="#services">Services</a></li>
+                    {/* <li className='font-Ovo'> <a href="#services">Services</a></li> */}
                     <li className='font-Ovo'> <a href="#work">My Work</a></li>
                     <li className='font-Ovo'> <a href="#contact">Contact me</a></li>
                 </ul>
@@ -54,13 +54,13 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
 
                 {/* mobile menu */}
-                <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 dark:bg-darkHover dark:text-white'>
+                <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-MyBlue transition duration-500 dark:bg-darkHover dark:text-white'>
                     <div className='absolute right-6 top-6' onClick={closeMenu}>
                         <Image src={isDarkMode ? assets.close_white : assets.close_black} alt='' className='w-5 cursor-pointer' />
                     </div>
                     <li className='font-Ovo' onClick={closeMenu}> <a href="#top">Home</a></li>
                     <li className='font-Ovo' onClick={closeMenu}> <a href="#about">About me</a></li>
-                    <li className='font-Ovo' onClick={closeMenu}> <a href="#services">Services</a></li>
+                    {/* <li className='font-Ovo' onClick={closeMenu}> <a href="#services">Services</a></li> */}
                     <li className='font-Ovo' onClick={closeMenu}> <a href="#work">My Work</a></li>
                     <li className='font-Ovo' onClick={closeMenu}> <a href="#contact">Contact me</a></li>
                 </ul>

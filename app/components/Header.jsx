@@ -38,13 +38,13 @@ const Header = ({ isDarkMode }) => {
                     initial={{ y: 30, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6, delay: 1 }}
-                    href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>
+                    href="#contact" className='px-10 py-3 border border-white rounded-full bg-MyBlue text-white flex items-center gap-2 dark:bg-transparent'>
                     contact me <Image src={assets.right_arrow_white} alt='' className='w-4' /></motion.a>
                 <motion.a
                     initial={{ y: 30, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6, delay: 1.2 }}
-                    href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
+                    href="/CV_Kacper_Pudelko.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
                     my resume <Image src={assets.download_icon} alt='' className='w-4' /></motion.a>
             </div>
 
