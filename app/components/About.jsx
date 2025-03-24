@@ -26,7 +26,7 @@ const About = ({ isDarkMode }) => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
 
-                className='flex w-full mr-auto  flex-col lg:flex-row items-center gap-20 my-20'>
+                className='w-full flex mr-auto justify-center  flex-col lg:flex-row items-center gap-20 my-20'>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
@@ -54,7 +54,7 @@ const About = ({ isDarkMode }) => {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.8, delay: 1 }}
 
-                        className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+                        className='grid grid-cols-1 sm:grid-cols-3  gap-6 max-w-2xl'>
                         {infoList.map(({ icon, iconDark, title, description }, index) => (
                             <motion.li
 
@@ -93,6 +93,8 @@ const About = ({ isDarkMode }) => {
 
                 </motion.div>
             </motion.div>
+
+
         </motion.div>
     )
 }

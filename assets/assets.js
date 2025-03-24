@@ -101,10 +101,10 @@ export const workData = [
         link: '',
     },
     {
-        title: 'Game Project',
-        description: 'Basic web game',
+        title: 'BackEnd Project',
+        description: 'Simple web backend',
         bgImage: '/work-3.png',
-        link: 'www.google.com',
+        link: 'https://github.com/Twiggiermaen21',
     },
     {
         title: 'Smart Home Project',
