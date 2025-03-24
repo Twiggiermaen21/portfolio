@@ -27,8 +27,7 @@ const Work = ({ isDarkMode }) => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
-                className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'> text text text text text text text text text text text text text text text text text text text text text text text text text text
-                text text text text text text text text text text text text text text text text text text text text text </motion.p>
+                className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'> Take a look at some of my recent projects. I'm always learning and experimenting with new ideas to improve my skills and build creative solutions. </motion.p>
 
 
             <motion.div
